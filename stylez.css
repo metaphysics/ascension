@@ -1,0 +1,90 @@
+@charset "UTF-8";
+/* CSS Document */
+
+/* @font-face { */
+/* font-family: -apple-system, ModeNine, sans-serif; */
+/* src: url(../fonts/modenine-webfont.woff); */
+/* } */
+/* @font-face { */
+/* font-family: 'modenineregular'; */
+/* src: url('modenine-webfont.woff2') format('woff2'), */
+/* url('modenine-webfont.woff') format('woff'); */
+/* font-weight: normal; */
+/* font-style: normal; */
+/*  */
+/* } */
+/*  */
+/* @font-face { */
+/* font-family: -apple-system, ModeNine, sans-serif;; */
+/*  */
+/* src: url(../fonts/modenine-webfont.woff2) format('woff2'), Super Modern Browsers */
+/* url(../fonts/modenine-webfont.woff) format('woff'), Pretty Modern Browsers */
+/* url(../fonts/modenine.otf)  format('truetype'), Safari, Android, iOS */
+/* } */
+* {
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "modenineregular";
+  src: url("/modenine-webfont.f27968c9.woff2") format("woff2"), url("/modenine-webfont.dd4ad771.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+html {
+  scroll-behavior: smooth;
+  font-weight: 400;
+}
+
+body {
+  margin: 0;
+}
+
+body, a, button {
+  font-family: "modenineregular";
+}
+
+p {
+  line-height: 1.7;
+}
+p a {
+  color: #5DC940;
+}
+
+.hide {
+  display: none !important;
+}
+
+button {
+  background: none;
+  border: none;
+  outline-style: none;
+}
+
+span[onclick] {
+  cursor: pointer;
+  text-decoration: underline;
+  color: #5DC940;
+}
+span[onclick]:hover {
+  text-decoration: none;
+  color: #5DC940;
+}
+
+footer {
+  min-height: 4vh;
+  background: #F3F3F3;
+  display: flex;
+  justify-content: center;
+  border-top: 2px solid black;
+}
+footer .footer-menu {
+  width: 1100px;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px 0;
+}
+footer .footer-menu a {
+  text-decoration: none;
+  color: black;
+}
